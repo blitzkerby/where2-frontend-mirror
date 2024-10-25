@@ -1,0 +1,33 @@
+/* Ensure the container is responsive */
+markdown .container {
+	width: 100%;
+	white-space: normal;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+/* Headings */
+markdown h1,
+h2,
+h3,
+h4 {
+	margin: 0.5em 0;
+}
+
+/* Text styles */
+markdown strong {
+	font-weight: bold;
+}
+
+markdown em {
+	font-style: italic;
+}
+
+/* Links */
+markdown a {
+	white-space: normal;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	color: blue; /* Adjust the link color as needed */
+	text-decoration: underline; /* Add or remove underline as needed */
+}
